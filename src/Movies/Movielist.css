@@ -1,0 +1,24 @@
+
+.movie-list {
+    margin: 20px 0px;
+}
+
+.movie-list h2{
+    color: rgb(171, 171, 210);
+    margin-bottom: 10px;
+    font-weight: 500;
+
+
+    
+}
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    grid-gap: 15px;
+}
+body {
+    background-color: #0f171e;
+}
+.show-list {
+    margin-top: 20px;
+}
